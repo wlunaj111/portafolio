@@ -1,0 +1,56 @@
+.contenedor {
+	margin: auto;
+	display: table;
+}
+
+h4 {
+	position: relative;
+	float: left;
+	background: #060606;
+	color: #af2e2e;
+	font-size: 1.5em;
+}
+
+h4 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #060606;
+    border-left: 1px solid #fff;
+    animation: escribir 3s steps(20) infinite forwards;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+.gradiente {
+  font-size: 2.5rem;
+  font-family: impact;
+  text-align: center;
+  background-image: radial-gradient(circle at 77.97% 50%, #d66eff 0, #ac56ff 25%, #783cf2 50%, #2b25e0 75%, #0019d1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: iluminarOscurecer 2s infinite alternate;
+}
+
+@keyframes iluminarOscurecer {
+  0% {
+      color: radial-gradient(circle at 43.84% 120.44%, #ff779f 0, #ff6cab 7.14%, #ff61b7 14.29%, #ff56c3 21.43%, #ff4ccf 28.57%, #ff44db 35.71%, #ff3ee7 42.86%, #f23cf2 50%, #d53efd 57.14%, #b345ff 64.29%, #874dff 71.43%, #3e56ff 78.57%, #005dff 85.71%, #0064ff 92.86%, #006aff 100%); /* Color inicial */
+      text-shadow: white/* Sombra inicial (iluminación) */
+  }
+  100% {
+    color: radial-gradient(circle at 43.84% 120.44%, #ff779f 0, #ff6cab 7.14%, #ff61b7 14.29%, #ff56c3 21.43%, #ff4ccf 28.57%, #ff44db 35.71%, #ff3ee7 42.86%, #f23cf2 50%, #d53efd 57.14%, #b345ff 64.29%, #874dff 71.43%, #3e56ff 78.57%, #005dff 85.71%, #0064ff 92.86%, #006aff 100%); /* Color inicial */
+    //text-shadow: 0 0 5px rgba(121, 170, 233, 0.274);/* Sombra final (iluminación más tenue) */
+    text-shadow: black
+  }
+}
+.description {
+  text-align: center;
+}
+.contact {
+  display: block;
+}
