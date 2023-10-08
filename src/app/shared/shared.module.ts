@@ -4,6 +4,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
+import { CurriculumComponent } from './pages/curriculum/curriculum.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -12,14 +14,17 @@ import { ContactsComponent } from './components/contacts/contacts.component';
     NavbarComponent,
     HomePageComponent,
     CardsComponent,
-    ContactsComponent
+    ContactsComponent,
+    CurriculumComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     NavbarComponent,
-    ContactsComponent
+    ContactsComponent,
+    CurriculumComponent,
   ]
 })
 export class SharedModule { }
