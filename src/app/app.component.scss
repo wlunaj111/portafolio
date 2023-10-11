@@ -1,3 +1,19 @@
+//------------------------  lightgallery  ------------------------------------------------
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-video.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-share.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-rotate.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lg-thumbnail.css');
+
+body {
+  margin: 0;
+}
+.gallery-item {
+  margin: 5px;
+}
+//---------------------------- lightgallery -----------------------------------------------
+
 .contact {
   display: inline-block;
 }

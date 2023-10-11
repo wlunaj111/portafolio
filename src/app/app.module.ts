@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
+// import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+// import { LightgalleryModule } from 'lightgallery/angular';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SharedModule,
     FormsModule, // Add FormsModule here
     ReactiveFormsModule,  // Add ReactiveFormsModule here if you're using reactive forms
+    // LightgalleryModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
